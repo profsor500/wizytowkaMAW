@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+     <head>
+          <title>Moja wizytówka</title>
+          <meta charset="UTF-8" />
+          <meta name="description" content="Moja wizytowka" />
+          <meta name="keywords" content="wizytowka, programowanie, HTML 5, css />
+          <meta name="author" content="Pawel Pietraszko" />
+ 
+          <!-- zewnetrzne pliki !-->
+          <link rel="stylesheet" href="css/style.css" />
+     </head>
+     <body>
+			<div class="banner"><h1>Prosta wizytowka</h1><img src=""></div>
+			<div id="navbar">
+			  <a href="#start">Start</a>
+			  <a href="#aboutme">O mnie</a>
+			  <a href="#achivements">Dorobek zawodowy</a>
+			  <a href="#downloads">Do pobrania</a>
+			  <a href="#contact">Kontakt</a>
+			</div>
+			<div class="content">
+			<div id="main">
+				<div id="start" class="tile">
+				<h3>Start</h3>
+				<p>
+               Ladies others the six desire age. Bred am soon park past read by lain. As excuse eldest no moment. An delight beloved up garrets am cottage private. The far attachment discovered celebrated decisively surrounded for and. Sir new the particular frequently indulgence excellence how. Wishing an if he sixteen visited tedious subject it. Mind mrs yet did quit high even you went. Sex against the two however not nothing prudent colonel greater. Up husband removed parties staying he subject mr. 
+				</p>
+				</div>
+				<div id="aboutme" class="tile">
+				<h3>O mnie</h3>
+				<img src="images/faceplaceholder.jpg" class="left">
+				<p >
+				Up maids me an ample stood given. Certainty say suffering his him collected intention promotion. Hill sold ham men made lose case. Views abode law heard jokes too. Was are delightful solicitude discovered collecting man day. Resolving neglected sir tolerably but existence conveying for. Day his put off unaffected literature partiality inhabiting. 
+				</p>
+				</div>
+				<div id="achivements"><p>
+				<h3>Dorobek zawodowy</h3>
+				<img src="images/unnamed.jpg" class="fullsize">
+				</p></div>
+				<div id="contact" class="tile">
+				<h3>Kontakt</h3>
+				<img src="images/contact.png" class="left">
+				<ul class="right">
+				  <li>nr tel. 111-222-333</li>
+				  <br>
+				  <li>ul Kujawska 66<br> Gliwice 44-100</li>
+				</ul>
+				</div>
+				<div id="downloads"><p>
+				<h3>Do pobrania</h3>
+				<ul class="right">
+				  <li><a href="" download="">plik1 do pobrania</li>
+				  <li><a href="" download="">plik2 do pobrania</li>
+				  <li><a href="" download="">plik3 do pobrania</li>
+				  
+				</ul>
+				</p></div>
+				
+				
+				<footer>
+               Strona zbudowana przez Pawła Pietraszko, jako projekt 1 dla POLSL, MAW.
+          </footer>
+		  </div>
+		  </div>
+     </body>
+	 <script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+				
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
+</html>

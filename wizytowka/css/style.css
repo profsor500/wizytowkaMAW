@@ -1,0 +1,115 @@
+/*tlo*/
+.banner{
+	/*css gradient generator*/
+	background: rgb(200,182,59);
+	background: linear-gradient(90deg, rgba(200,182,59,1) 0%, rgba(107,101,101,1) 29%, rgba(54,50,50,1) 94%);
+	padding:20px;
+	margin:0px;
+    width:100%;
+	height:156px;
+}
+body{
+	font-size:18px;
+	padding:0px;
+	margin:0px;
+	/*
+	========================================================
+ This pattern is downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ ========================================================
+ */
+	background-image: url("../images/bg.png");
+}
+#main{
+	background:white;
+	margin: auto;
+	width:40%;
+	max-width: 700px;
+	border: white;
+	border-radius:10px;
+	box-shadow:rgba(0,0,0,0.3) 0px 20px 30px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+	padding:10px;
+	margin-bottom:30px;
+}
+#content{
+	padding:7px;
+	
+}
+
+/*MENU*/
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  width:100%;
+  margin:0px;
+}
+#navbar a {
+  font-size:21px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.content {
+  padding-top: 0px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  padding:0px;
+  margin:0px;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+/*teksty*/
+.warning
+{
+	font-size:22;
+	font:yellow;
+}
+footer{
+	font-size: 12px;
+	margin-left:10%;
+}
+
+h1{
+	color:white;
+	font-size:56px;
+	
+}
+h3{
+	font-family:Sans-Serif;
+	color:#4d4d4d;
+	
+}
+/*obrazy*/
+.fullsize{
+	width: 100%;
+	height:auto;
+	
+}
+.left{
+	float:left;
+	clear:left;
+	margin: 5px;
+}
+
+/*inne*/
+.tile{
+	width: 100%;
+	height:auto;
+	display: inline-block;
+	margin:5px;
+}
+.right{
+	
+	text-align: justify;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
